@@ -25,9 +25,15 @@ body {
 
 .lyrics {
   width: 90%;
+  margin-bottom: 3rem;
 }
 
 h1 {
+  margin-top: 2rem;
+}
+
+h2 {
+  text-align: center;
   margin-top: 2rem;
 }
 
