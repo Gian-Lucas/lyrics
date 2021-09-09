@@ -83,6 +83,7 @@ button:hover {
 }
 
 span {
+  text-align: center;
   margin: 2rem auto;
   font-size: 1.5rem;
 }
