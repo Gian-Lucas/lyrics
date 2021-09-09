@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Search Lyrics</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Search Lyrics</h1>
+      <span
+        >Pesquise a letra da sua música favorita e divirta-se cantando!</span
+      >
+      <form>
+        <label for="artist">Artista</label>
+        <input type="text" id="artist" />
+
+        <label for="title">Nome da música</label>
+        <input type="text" id="title" />
+        <button class="serach">Procurar</button>
+      </form>
+      <div class="lyrics"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

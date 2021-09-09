@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dark-blue: #003066;
+  --light-blue: #004ca3;
+  --gray-bg: #eeeeee;
+  --white-bg: #ffffff;
+}
+
+body {
+  color: var(--dark-blue);
+  background-color: var(--gray-bg);
+}
+
+.container {
+  font-family: "Ubunto", sans-serif;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lyrics {
+  width: 90%;
+}
+
+h1 {
+  margin-top: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+form input {
+  transition: 0.3s;
+  margin: 0.5rem auto;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: 2px solid var(--dark-blue);
+  background: var(--gray-bg);
+  outline: none;
+  border-radius: 7px;
+}
+
+form input:hover,
+input:focus {
+  background: var(--white-bg);
+  border-color: var(--light-blue);
+}
+
+button {
+  outline: none;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  background: var(--dark-blue);
+  color: #ffffff;
+  width: 100%;
+  font-size: 1.2rem;
+}
+button:hover {
+  background: var(--light-blue);
+}
+
+span {
+  margin: 2rem auto;
+  font-size: 1.5rem;
+}
